@@ -1,0 +1,71 @@
+/*head bar*/
+.logo{
+    height: 50px;
+    display: block;
+    margin: auto;
+    padding-bottom: 5px;
+}
+.sottotitolo{
+    background-color: beige;
+    border-top: 2px rgba(255, 166, 0, 0.342) solid;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    color: rgb(5, 83, 66);
+    padding-bottom: 5px;
+} 
+.sottotitolo p{
+    text-align: center;
+}
+
+/*page content*/
+.contenuto-pagina{
+    margin-right: 25vw;
+    margin-left: 25vw;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+.foto-container{
+    margin: auto;
+    height: 450px;
+}
+#foto{
+    height: 450px;
+    margin: auto;
+    border-radius: 15px;
+    display: block;
+    shape-image-threshold: inherit;
+    box-shadow: 5px 5px rgba(177, 175, 175, 0.349) ;
+}
+.photografer-name{
+    text-align: center;
+    color: gray;
+}
+.link-container{
+    border-left:2px solid orange ;
+    padding-left: 15px;
+    margin-bottom: 40px;
+}
+.link-container p{
+    margin-bottom: 0px;
+    color: rgb(190, 77, 77);
+    font-weight: bold;
+}
+.link{
+    color: rgb(26, 119, 156);
+    margin-top: 0px;
+    font-weight: bold;
+}
+.ingredients h2{
+    padding-bottom: 20px;
+    border-bottom:1.5px solid rgba(116, 222, 255, 0.582) ;
+}
+li{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.ordered-list-items{
+    font-weight: bold;
+}
